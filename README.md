@@ -16,7 +16,7 @@ file works as a mainframe to adjust the colors of the entire website easily, wit
 
 Being a one-paged jekyll theme, I made it as modularized as possible while still maintaining efficiency. All the sections are in separate files which can be included and interchanged in the only `index.html` file.
 
-![index.html](md/index.png)
+![index.html](md/index.PNG)
 
 Many common libraries are already included and installed in both the `head.html` and `footer_includes.html` file for the CSS and JavaScript respectively.
 
@@ -29,10 +29,10 @@ The _data folder includes many options that can be customized.
 1. The `cards.yml` file
   * The `cards.yml` file is probably the most robust tool of the `_data` folder. It allows for easy additions to the `portfolio.html` and `modal.html` sections.
 
-![cards](md/cards.png)
+![cards](md/cards.PNG)
   * The `cards.yml` has **3** basic options(you can add more of course) for the card cover and modal.
 
-![config](md/config.png)
+![config](md/config.PNG)
   * The normal, or card section, has:
     1. The `name` of the card, which appears in the cover.
     2. The `img`, which is the path to the image you want as the cover.
@@ -42,15 +42,15 @@ The _data folder includes many options that can be customized.
     2. The `body` which is the body of the Modal
     3. And the `id` which is the ID of the modal that the card refers to. Make sure this is unique!
 
-![modal](md/modal.png)
+![modal](md/modal.PNG)
 2. The `colors.yml` file
   * This one is pretty self-explanatory, it has an option to change the 10 base colors used and referenced by the CSS file.
 
-![colors](md/colors.png)
+![colors](md/colors.PNG)
 
 3. The `pages.yml` file
 
-![pages.yml](md/pages.png)
+![pages.yml](md/pages.PNG)
 
   * This is where your navigation bar and section order comes in. Enter your page sections in the corresponding order you want them to appear in.
 
@@ -60,7 +60,7 @@ The _data folder includes many options that can be customized.
 
 4. The `social.yml` file
 
-![social.yml](md/social.png)
+![social.yml](md/social.PNG)
   * This file is pretty self-explanatory as well. Enter the name of the icon according to [Font Awesome](https://fontawesome.com/icons?d=gallery) and the corresponding URL. These icons are set to be in the footer, but you can put them wherever since they are stored in the `icons.html` file.
 
 # Licensing and usage
