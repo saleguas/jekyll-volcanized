@@ -1,0 +1,23 @@
+- name: "Example Card 1"
+  img: "/assets/img/laptop.svg"
+  desc: "Some quick example text to build on the card title and make up the bulk of the card's content"
+  modal:
+    title: "Modal portfolio 1"
+    body: "Modal body text goes here."
+    id: portfolio-1
+
+- name: "Example Card 2"
+  img: "/assets/img/laptop.svg"
+  desc: "Some quick example text to build on the card title and make up the bulk of the card's content"
+  modal:
+    title: "Modal portfolio 2"
+    body: "Modal body text goes here."
+    id: portfolio-2
+
+- name: "Example Card 3"
+  img: "/assets/img/laptop.svg"
+  desc: "Some quick example text to build on the card title and make up the bulk of the card's content"
+  modal:
+    title: "Modal portfolio 3"
+    body: "Modal body text goes here."
+    id: portfolio-3

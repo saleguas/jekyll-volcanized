@@ -1,0 +1,14 @@
+- name: facebook
+  url: www.facebook.com
+
+- name: instagram
+  url: www.instagram.com
+
+- name: google
+  url: test@test.com
+
+- name: github
+  url: www.github.com
+
+- name: twitter
+  url: www.twitter.com

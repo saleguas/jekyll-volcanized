@@ -1,0 +1,15 @@
+# Use these prebuilt options instead of seraching through the css to change the colors.
+# I used the solarized colors https://en.wikipedia.org/wiki/Solarized_(color_scheme)
+
+main-text: "839496"
+secondary-text: "b58900"
+tertiary-text: "6c71c4"
+important-text: "268bd2"
+
+main-background: "002a36"
+secondary-background: "073642"
+tertiary-background: "002b36"
+
+main-header: "cb4b16"
+secondary-header: "859900"
+nav-header: "2aa198"
