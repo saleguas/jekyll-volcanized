@@ -14,7 +14,7 @@ file works as a mainframe to adjust the colors of the entire website easily, wit
 
 # Organized layout
 
-Being a one-paged jekyll theme, I made it as modularized as possible while still maintaining efficiency. All the sections are in separate files which can be included and interchanged in the only `index.html` file.
+Being a one-paged Jekyll theme, I made it as modularized as possible while still maintaining efficiency. All the sections are in separate files which can be included and interchanged in the only `index.html` file.
 
 ![index.html](md/index.PNG)
 
@@ -62,6 +62,14 @@ The _data folder includes many options that can be customized.
 
 ![social.yml](md/social.PNG)
   * This file is pretty self-explanatory as well. Enter the name of the icon according to [Font Awesome](https://fontawesome.com/icons?d=gallery) and the corresponding URL. These icons are set to be in the footer, but you can put them wherever since they are stored in the `icons.html` file.
+
+# Completely responsive
+
+Through media queries and bootstrap, the website was built with responsiveness in mind from the ground up. The website is mobile-first which will increase SEO as well as general usability.
+
+# Jekyll sitemap and SEO
+
+The website is already configured to use both Jekyll sitemap(which can be found at `/sitemap.xml`) and use Jekyll SEO.
 
 # Licensing and usage
 
