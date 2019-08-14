@@ -1,12 +1,16 @@
 # Add your pages here!
 - name: Home
   href: home
+  file: "home.html"
 
 - name: About
   href: about
+  file: "about.html"
 
 - name: Portfolio
   href: portfolio
+  file: "portfolio.html"
 
 - name: Experience
   href: experience
+  file: "experience.html"

@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row">
+    <div class="col text-center icons">
+      {% for icon in site.data.social %}
+        <a href="{{icon.url}}" class='icon'>
+          <i class='fa fa-{{icon.name}}'></i>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</div>

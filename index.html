@@ -5,13 +5,20 @@
   {% include head.html %}
   <body>
     {% include header.html %}
-    {% include home.html %}
+    {% include modals.html %}
+
     <div class="container">
-      {% include modals.html %}
+      {% for page in site.data.pages %}
+      <section id='{{page.href}}'>
+        {% include {{page.file}} %}
+      </section>
+      {% endfor %}
+      <!-- {% include home.html %}
       {% include about.html %}
       {% include portfolio.html %}
-      {% include experience.html %}
+      {% include experience.html %} -->
     </div>
+
     <div class="footer">
       {% include footer_includes.html %}
       {% include footer.html %}

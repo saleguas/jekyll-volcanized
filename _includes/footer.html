@@ -4,15 +4,7 @@
         {{site.description}}
       </div>
     </div>
-    <div class="row">
-      <div class="col text-center icons">
-        {% for icon in site.data.social %}
-          <a href="{{icon.url}}" class='icon'>
-            <i class='fa fa-{{icon.name}}'></i>
-          </a>
-        {% endfor %}
-      </div>
-    </div>
+    {% include icons.html %}
   <div class="row">
     <div class="col">
       <p class="m-0 text-center text-muted">Copyright &copy; {{site.title}} 2019</p>
