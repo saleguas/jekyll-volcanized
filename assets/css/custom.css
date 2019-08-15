@@ -135,20 +135,20 @@ img{
 }
 .canvas-header{
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -30%);
   font-size: 6em;
   color: #{{ site.data.colors.important-text }} !important;
 }
 
 .canvas-sub{
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -30%);
   color: #{{ site.data.colors.important-text }} !important;
-  margin-top: 2em;
+  margin-top: 3em;
 }
 
 footer{
