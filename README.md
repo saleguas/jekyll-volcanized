@@ -81,6 +81,8 @@ Simply move around the entries in the order you want them to appear in! The orde
 ## The `social.yml` file
 
 ![social.yml](md/social.PNG)
+
+
 This file is pretty self-explanatory as well. Enter the name of the icon according to [Font Awesome](https://fontawesome.com/icons?d=gallery) and the corresponding URL. These icons are set to be in the footer, but you can put them wherever since they are stored in the `icons.html` file.
 
 
