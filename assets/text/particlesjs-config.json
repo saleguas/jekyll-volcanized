@@ -10,13 +10,13 @@
       }
     },
     "color": {
-      "value": "#{{site.data.colors.important-text}}"
+      "value": "#{{site.colors.important-text}}"
     },
     "shape": {
       "type": "circle",
       "stroke": {
         "width": 0,
-        "color": "#{{site.data.colors.important-text}}"
+        "color": "#{{site.colors.important-text}}"
       },
       "polygon": {
         "nb_sides": 5
@@ -50,7 +50,7 @@
     "line_linked": {
       "enable": true,
       "distance": 150,
-      "color": "#{{site.data.colors.important-text}}",
+      "color": "#{{site.colors.important-text}}",
       "opacity": 0.4,
       "width": 1
     },

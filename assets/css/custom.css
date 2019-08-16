@@ -19,7 +19,7 @@ html::-webkit-scrollbar { /* WebKit */
 #particles-js, .banner{
   margin: 0px;
   padding: 0px;
-  background-color: #{{ site.data.colors.main-background }};
+  background-color: #{{ site.colors.main-background }};
   width: 100%;
   height: 100%;
   height: 100vh;
@@ -41,7 +41,7 @@ canvas {
 
 
 nav{
-  background-color: #{{ site.data.colors.main-background }};
+  background-color: #{{ site.colors.main-background }};
 }
 
 section{
@@ -53,29 +53,29 @@ footer{
 }
 
 a{
-  color: #{{ site.data.colors.tertiary-text }}
+  color: #{{ site.colors.tertiary-text }}
 }
 
 /* Solarized color palette */
 html, body {
-	background-color: #{{ site.data.colors.main-background }};
-	color: #{{ site.data.colors.navbar.main-text }};
+	background-color: #{{ site.colors.main-background }};
+	color: #{{ site.colors.navbar.main-text }};
 }
 
 
 h1, h2, h3 {
-	color: #{{site.data.colors.main-header}} !important;
+	color: #{{site.colors.main-header}} !important;
   font-size:200%;
   font-family: "Allerta Stencil", Sans-serif;
 
 }
 
 h5{
-  color: #{{site.data.colors.secondary-text}};
+  color: #{{site.colors.secondary-text}};
 }
 
 .navbar-brand, .nav-link{
-  color: #{{site.data.colors.nav-header}} !important;
+  color: #{{site.colors.nav-header}} !important;
   font-family: "Allerta Stencil", Sans-serif;
 
 
@@ -83,12 +83,12 @@ h5{
 
 
 li{
-  color: #{{site.data.colors.secondary-header}};
+  color: #{{site.colors.secondary-header}};
 }
 
 p{
   font-size: 100%;
-  color: #{{site.data.colors.main-text}} !important;
+  color: #{{site.colors.main-text}} !important;
 
 }
 .active{
@@ -98,7 +98,7 @@ p{
 /* Modals */
 .card{
   border-radius: 1em;
-  background-color: #{{site.data.colors.secondary-background}} !important;
+  background-color: #{{site.colors.secondary-background}} !important;
   padding: 1em;
   position: relative;
   top: 0;
@@ -115,12 +115,12 @@ img{
   fill: #268bd2;
 }
 .btn{
-  background-color: #{{site.data.colors.tertiary-background}} ;
-  color: #{{ site.data.colors.important-text }};
+  background-color: #{{site.colors.tertiary-background}} ;
+  color: #{{ site.colors.important-text }};
 }
 
 .modal-content{
-  background-color: #{{site.data.colors.main-background}};
+  background-color: #{{site.colors.main-background}};
 }
 .modal-header{
   border-bottom: 1px solid #6c71c4;
@@ -131,7 +131,7 @@ img{
 }
 
 .modal-title{
-  color: #{{site.data.colors.nav-header}} !important;
+  color: #{{site.colors.nav-header}} !important;
 }
 .canvas-header{
   position: absolute;
@@ -139,7 +139,7 @@ img{
   left: 50%;
   transform: translate(-50%, -30%);
   font-size: 6em;
-  color: #{{ site.data.colors.important-text }} !important;
+  color: #{{ site.colors.important-text }} !important;
 }
 
 .canvas-sub{
@@ -147,17 +147,17 @@ img{
   top: 30%;
   left: 50%;
   transform: translate(-50%, -30%);
-  color: #{{ site.data.colors.important-text }} !important;
+  color: #{{ site.colors.important-text }} !important;
   margin-top: 3em;
 }
 
 footer{
-  background-color: #{{site.data.colors.secondary-background}};
-  color: #{{site.data.colors.important-text}};
+  background-color: #{{site.colors.secondary-background}};
+  color: #{{site.colors.important-text}};
 }
 .icon{
   margin: 1em .5em;
-  color: #{{site.data.colors.important-text}};
+  color: #{{site.colors.important-text}};
 }
 .icons{
   margin: 1em;

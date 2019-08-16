@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    {% include modals.html %}
+
+    <div class="container">
+      {% for page in site.pagez %}
+      <section id='{{page.href}}'>
+        {% assign path = page.file %}
+        {% include path %}
+      </section>
+      {% endfor %}
+    </div>
+
+    <div class="footer">
+      {% include footer_includes.html %}
+      {% include footer.html %}
+    </div>
+  </body>
+</html>
