@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-volcanized"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.6"
   spec.authors       = ["salvador aleguas"]
   spec.email         = ["salvadoraleguas@gmail.com"]
 
-  spec.summary       = "A jekyll theme that uses the solarized color palette with many customizable options"
+  spec.summary       = "A jekyll theme that uses the solarized color palette with many customizable options. Checkout the github page for instrucitons."
   spec.homepage      = "https://github.com/saleguas/jekyll-volcanized"
   spec.license       = "MIT"
 

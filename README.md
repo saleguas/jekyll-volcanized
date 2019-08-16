@@ -13,6 +13,8 @@ Well, I will tell you why you might like it
   * [The `colors.yml` file](#the-colorsyml-file)
   * [The `pages.yml` file](#the-pagesyml-file)
   * [The `social.yml` file](#the-socialyml-file)
+  * [Gem based theme](#gem-based-theme)
+
 - [Completely responsive](#completely-responsive)
 - [Jekyll sitemap and SEO](#jekyll-sitemap-and-seo)
 - [Installation and usage](#installation-and-usage)
@@ -81,6 +83,95 @@ Simply move around the entries in the order you want them to appear in! The orde
 ![social.yml](md/social.PNG)
 This file is pretty self-explanatory as well. Enter the name of the icon according to [Font Awesome](https://fontawesome.com/icons?d=gallery) and the corresponding URL. These icons are set to be in the footer, but you can put them wherever since they are stored in the `icons.html` file.
 
+
+## Gem based theme
+
+If you are using a gem based theme, do NOT make your changes or create a `_data` folder. Instead, make a `YAML` array of the values with the name of the `_data` files, such as:
+```yaml
+cards:
+  - name: "Example Card 1"
+    img: "/assets/img/laptop.svg"
+    desc: "Some quick example text to build on the card title and make up the bulk of the card's content"
+    modal:
+      title: "Modal portfolio 1"
+      body: "Modal body text goes here."
+      id: portfolio-1
+
+  - name: "Example Card 2"
+    img: "/assets/img/laptop.svg"
+    desc: "Some quick example text to build on the card title and make up the bulk of the card's content"
+    modal:
+      title: "Modal portfolio 2"
+      body: "Modal body text goes here."
+      id: portfolio-2
+
+  - name: "Example Card 3"
+    img: "/assets/img/laptop.svg"
+    desc: "Some quick example text to build on the card title and make up the bulk of the card's content"
+    modal:
+      title: "Modal portfolio 3"
+      body: "Modal body text goes here."
+      id: portfolio-3
+
+# Colors.yml
+# Use these prebuilt options instead of seraching through the css to change the colors.
+# I used the solarized colors https://en.wikipedia.org/wiki/Solarized_(color_scheme)
+
+colors:
+  main-text: "839496"
+  secondary-text: "b58900"
+  tertiary-text: "6c71c4"
+  important-text: "268bd2"
+
+  main-background: "002a36"
+  secondary-background: "073642"
+  tertiary-background: "002b36"
+
+  main-header: "cb4b16"
+  secondary-header: "859900"
+  nav-header: "2aa198"
+
+# Pages.yml
+
+# Add your pages here!
+# I have to use pagez because site.pages is already a thing.
+pagez:
+  - name: Home
+    href: home
+    file: "home.html"
+
+  - name: About
+    href: about
+    file: "about.html"
+
+  - name: Portfolio
+    href: portfolio
+    file: "portfolio.html"
+
+  - name: Experience
+    href: experience
+    file: "experience.html"
+
+# Social.yml
+social:
+  - name: facebook
+    url: www.facebook.com
+
+  - name: instagram
+    url: www.instagram.com
+
+  - name: google
+    url: test@test.com
+
+  - name: github
+    url: www.github.com
+
+  - name: twitter
+    url: www.twitter.com
+
+```
+
+Note that you cannot name the `pages.yml` equivalent pages in the `_config.yml` file because `site.pages` is predefined already.
 # Completely responsive
 
 Through media queries and bootstrap, the website was built with responsiveness in mind from the ground up. The website is mobile-first which will increase SEO as well as general usability.
@@ -91,6 +182,7 @@ The website is already configured to use both Jekyll sitemap(which can be found 
 
 # Installation and usage
 
+You can use both cloning and ruby gems to use this theme. I personally think cloning is easier because I enjoy working with the source files, but don't worry if you like gem themes better! There is still full functionality in gem themes.
 ## Cloning
 
 Run
@@ -98,6 +190,29 @@ Run
 git clone https://github.com/saleguas/jekyll-volcanized.git
 ```
 To clone the repository and make your changes.
+
+## Gem theme
+
+In your `_config.yml` file, add the line
+```yaml
+theme: jekyll-volcanized
+```
+Also add both the `jekyll-seo-tag` and `jekyll-sitemap` plugin
+```yaml
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+```
+and in your `Gemfile` add the lines
+```ruby
+gem "jekyll-volcanized"
+gem "jekyll-seo-tag"
+gem "jekyll-sitemap"
+```
+And your done! Don't forget to run `bundle install` to install the neccessary gems.
+
+The configuration is a bit different for gem themes, which you can find [Here](#gem-based-theme)
 
 # Licensing
 
