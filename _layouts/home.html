@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   {% include head.html %}
@@ -8,8 +10,7 @@
     <div class="container">
       {% for page in site.pagez %}
       <section id='{{page.href}}'>
-        {% assign path = page.file %}
-        {% include path %}
+        {% include {{page.file}} %}
       </section>
       {% endfor %}
     </div>

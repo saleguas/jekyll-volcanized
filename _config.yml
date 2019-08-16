@@ -78,6 +78,7 @@ colors:
 # Pages.yml
 
 # Add your pages here!
+# I have to use pagez because site.pages is already a thing.
 pagez:
   - name: Home
     href: home
