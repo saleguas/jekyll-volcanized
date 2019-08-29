@@ -13,7 +13,7 @@ Well, I will tell you why you might like it
   * [The `colors.yml` file](#the-colorsyml-file)
   * [The `pages.yml` file](#the-pagesyml-file)
   * [The `social.yml` file](#the-socialyml-file)
-  * [Gem based theme](#gem-based-theme)
+  * [Gem based theme READ NOTE](#gem-based-theme)
 
 - [Completely responsive](#completely-responsive)
 - [Jekyll sitemap and SEO](#jekyll-sitemap-and-seo)
@@ -87,6 +87,8 @@ This file is pretty self-explanatory as well. Enter the name of the icon accordi
 
 
 ## Gem based theme
+
+*The gem theme is now DEPRECATED. Clone the files or use the template instead.
 
 If you are using a gem based theme, do NOT make your changes or create a `_data` folder. Instead, make a `YAML` array of the values with the name of the `_data` files, such as:
 ```yaml
